@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do 
-	Time.now.to_s
+	File.new('public/hello.html').readlines
 end
