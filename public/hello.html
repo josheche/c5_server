@@ -4,79 +4,58 @@
     <head>
       <meta charset ="utf-8" />
       <title>Hello World!</title>
+      <!-- Loading Bootstrap, bruh. -->
+      <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+       <!-- Loading Flat UI, bruh. -->
+    <link href="../dist/css/flat-ui.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
     </head>
-    
+
     <body>
+    </nav>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Joshua Echeverri" src="...">
+          </a>
+        </div>
+      <ul class="nav nav-pills">
+        <li><a href="hello.html">HOME</a></li>
+        <li><a href="http://medium.com/@josheche" target="_blank">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="http://about.me/josheche">ABOUT</a></li>
+      </ul>
+
+      </div>
+    </nav>
+      <br>
+      <div class="jumbotron">
+        <div class="container">
       <h1>Hello World!</h1>
-      <p>This is the body of my first website.<br>It may not be perfect, but it's <b>done</b>
+      <p>This is the body of my first website.<br>It may not be perfect, but it's <strong>done</strong>.
       <br>
       </p>
+      <p>
+      <div class="btn-group" role="group" aria-label="...">
+        <a href="http://about.me/josheche" type="button" class="btn btn-default"/>Check out my about.me page!</a>
+      </div>
+      </div>
+      </div>
       <br>
-     <a href="http://about.me/josheche" class="button"/>Check out my about.me page!</a>
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="../dist/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/vendor/video.js"></script>
+    <script src="../dist/js/flat-ui.min.js"></script>
     </body>
     
     <style type ="text/css"> 
-.button{text-decoration:none; text-align:center; 
- padding:11px 32px; 
- border:solid 1px #00720f; 
- -webkit-border-radius:4px;
- -moz-border-radius:4px; 
- border-radius: 4px; 
- font:28px Arial, Helvetica, sans-serif; 
- font-weight:bold; 
- color:#e9ffe5; 
- background-color:#26e326; 
- background-image: -moz-linear-gradient(top, #26e326 0%, #0a870a 100%); 
- background-image: -webkit-linear-gradient(top, #26e326 0%, #0a870a 100%); 
- background-image: -o-linear-gradient(top, #26e326 0%, #0a870a 100%); 
- background-image: -ms-linear-gradient(top, #26e326 0% ,#0a870a 100%); 
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a870a', endColorstr='#0a870a',GradientType=0 ); 
- background-image: linear-gradient(top, #26e326 0% ,#0a870a 100%);   
- -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
- -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
- box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
-  
-  }.button:hover{
- padding:11px 32px; 
- border:solid 1px #007215; 
- -webkit-border-radius:4px;
- -moz-border-radius:4px; 
- border-radius: 4px; 
- font:28px Arial, Helvetica, sans-serif; 
- font-weight:bold; 
- color:#ffffff; 
- background-color:#9edba0; 
- background-image: -moz-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -webkit-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -o-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -ms-linear-gradient(top, #9edba0 0% ,#538052 100%); 
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#538052', endColorstr='#538052',GradientType=0 ); 
- background-image: linear-gradient(top, #9edba0 0% ,#538052 100%);   
- -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
- -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
- box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
-  
- }.button:active{
- padding:11px 32px; 
- border:solid 1px #007215; 
- -webkit-border-radius:4px;
- -moz-border-radius:4px; 
- border-radius: 4px; 
- font:28px Arial, Helvetica, sans-serif; 
- font-weight:bold; 
- color:#ffffff; 
- background-color:#9edba0; 
- background-image: -moz-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -webkit-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -o-linear-gradient(top, #9edba0 0%, #538052 100%); 
- background-image: -ms-linear-gradient(top, #9edba0 0% ,#538052 100%); 
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#538052', endColorstr='#538052',GradientType=0 ); 
- background-image: linear-gradient(top, #9edba0 0% ,#538052 100%);   
- -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
- -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
- box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
-  
- }
+  /* Pads top of body to get content below the nav bar*/
+  body { padding-top: 70px; }  
+
+  /*# sourceMappingURL=bootstrap.css.map */
     </style>
   
   </html>
