@@ -4106,6 +4106,9 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin-bottom: 0;
   border-width: 0;
   }
+/*.navbar-inner {
+  background: rgba(255, 255, 255, .03);
+}*/
 .navbar-brand {
   height: 53px;
   padding: 14px 21px;
